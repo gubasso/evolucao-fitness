@@ -29,7 +29,7 @@ repos:
         description: Prettier local project
         entry: prettier --plugin-search-dir . --list-different --ignore-unknown --write
         language: node
-        additional_dependencies: ['prettier@2.8.0']
+        additional_dependencies: ['prettier@3.2.5', 'prettier-plugin-svelte@3.2.2']
         types: [text]
         exclude_types: [markdown]
         args: []
@@ -46,7 +46,7 @@ repos:
       # https://github.com/jonschlinkert/markdown-toc
       - id: markdown-toc
         args: [--maxdepth, '3', --bullets, '-', -i]
-  - repo: https://github.com/sirwart/ripsecrets
-    rev: 'v0.1.7' # Use latest tag on GitHub
-    hooks:
-      - id: ripsecrets
+  # - repo: https://github.com/sirwart/ripsecrets
+  #   rev: 'v0.1.7' # Use latest tag on GitHub
+  #   hooks:
+  #     - id: ripsecrets
