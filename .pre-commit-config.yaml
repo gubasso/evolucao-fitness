@@ -32,7 +32,7 @@ repos:
         additional_dependencies: ['prettier@3.2.5', 'prettier-plugin-svelte@3.2.2']
         types: [text]
         exclude_types: [markdown]
-        args: []
+        args: ['.', 'gs_scripts/**/*.{gs,js,ts,json,css,md,svelte}']
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: '2.7.3'
     hooks:

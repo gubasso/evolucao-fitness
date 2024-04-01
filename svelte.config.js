@@ -13,8 +13,8 @@ const config = {
       strict: false
     }),
     paths: {
-      // base: process.env.NODE_ENV === 'production' ? '/gubasso.xyz' : ''
-      base: ''
+      base: process.env.NODE_ENV === 'production' ? '/evolucao-fitness' : ''
+      // base: ''
     }
   }
 }
