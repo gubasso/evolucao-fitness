@@ -1,7 +1,7 @@
 # RIPISSUE
 
-- [ ] deploy_with_github_actions_github_pages
 - [ ] setup evolucao-fitness.gubasso.xyz domain
+- [x] deploy_with_github_actions_github_pages
 - [x] form with correct scripts
 
   - [x] from 'dados', 'participantes' -> change form
