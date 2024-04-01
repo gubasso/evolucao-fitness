@@ -3,10 +3,29 @@
 <!-- toc -->
 
 - [Backlog](#backlog)
+- [Done](#done)
 
 <!-- tocstop -->
 
-- [ ] data table to show all the data
+- [ ] data_table_to_show_all_the_data
+
+## Backlog
+
+- [ ] team section
+  - [ ] donut chart (team leader at center)
+  - [ ] line chart with both teams totals
+  - [ ] treemap (one big section by team, and inside the individual)
+- [ ] individual page?
+
+  - calheatmap?
+  - linechart?
+  - how much I contribute to the team?
+
+- [ ] photo feed?
+- [ ] setup evolucao-fitness.gubasso.xyz domain
+
+## Done
+
 - [x] deploy_with_github_actions_github_pages
 - [x] form with correct scripts
 
@@ -33,7 +52,3 @@ jobs:
         with:
           folder: build
 ```
-
-## Backlog
-
-- [ ] setup evolucao-fitness.gubasso.xyz domain
