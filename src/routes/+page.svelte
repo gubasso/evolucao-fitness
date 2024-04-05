@@ -17,3 +17,9 @@
 </script>
 
 <h1>Bem vindo ao Evolução Fitness</h1>
+
+<style>
+  h1 {
+    color: var(--color-primary-dark);
+  }
+</style>

@@ -1,0 +1,12 @@
+:root {
+  --color-primary-dark: #002f4b; /* Navy blue for main elements */
+  --color-primary-light: #0071bc; /* Bright blue for accents */
+  --color-secondary-dark: #ff4b33; /* Red-Orange for call-to-actions */
+  --color-secondary-light: #ffd700; /* Yellow for highlights and buttons */
+  --color-accent-1: #ffffff; /* White for text and backgrounds */
+  --color-accent-2: #eeeeee; /* Light grey for background contrasts */
+  --color-accent-3: #f4b400; /* Gold for premium elements */
+  --color-accent-4: #505050; /* Dark grey for text */
+  --color-special-1: #e1f4fe; /* Light sky blue for special backgrounds */
+  --color-special-2: #ea4335; /* Bright red for alerts or warnings */
+}

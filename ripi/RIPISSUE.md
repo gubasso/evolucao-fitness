@@ -7,6 +7,7 @@
 
 <!-- tocstop -->
 
+- [ ] review post calc: the post will count just in the end, after the sum of total (if total is > 0, post will count)
 - [ ] data_table_to_show_all_the_data
 
 ## Backlog
