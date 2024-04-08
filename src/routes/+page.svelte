@@ -1,16 +1,16 @@
 <script>
   import { onMount } from 'svelte'
+  import { URL } from '$lib'
   import { genData, Challenge } from '$lib/helpers'
 
   onMount(async () => {
-    const url =
-      'https://docs.google.com/spreadsheets/d/e/2PACX-1vTT4PgnLeIBMurR_X02uZjFVa9Udhf_OalusRH-0aj3VjEEPh-EYcBKascOg6fA38ecFGMRZpRy-XX3/pub?gid=201275323&single=true&output=csv'
-    const response = await fetch(url)
+    const response = await fetch(URL)
     const csv = await response.text()
     const { rawData, filteredData } = genData(csv)
     const challenge = new Challenge(filteredData)
     console.log(rawData)
     console.log(filteredData)
+    console.log(challenge.data)
     console.log(challenge.dataByTeam)
     console.log(challenge.sumsByTeam)
   })

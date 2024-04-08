@@ -7,7 +7,6 @@
 
 <!-- tocstop -->
 
-- [ ] review post calc: the post will count just in the end, after the sum of total (if total is > 0, post will count)
 - [ ] data_table_to_show_all_the_data
 
 ## Backlog
@@ -27,6 +26,7 @@
 
 ## Done
 
+- [x] review post calc: the post will count just in the end, after the sum of total (if total is > 0, post will count)
 - [x] deploy_with_github_actions_github_pages
 - [x] form with correct scripts
 
